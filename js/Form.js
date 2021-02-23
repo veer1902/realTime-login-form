@@ -5,8 +5,10 @@ class Form {
 
   display(){
     var title = createElement('h2', "Car Racing Game");
-    
+     title.position(130,0)
     var input = createInput().attribute("placeholder", "Name");input.position(130, 160);
+    
+    var button=createButton('Start');  
     button.position(250, 200);
 
     button.mousePressed(function(){
